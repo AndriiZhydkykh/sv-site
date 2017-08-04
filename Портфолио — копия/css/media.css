@@ -1,0 +1,289 @@
+
+@media screen and (max-width: 479px){
+	.header-text-border {
+		min-width:260px;
+		margin:0 10px;
+	}
+	.header-h1{
+		font-size: 30px;
+	}
+	.header-a{
+		top: 76%;
+	}
+	.header-p{
+		font-size: 20px;
+	}
+	.header-p-span{
+		bottom:-9px;
+	}	
+	.details-details-me{
+		margin: 0;
+		width: 100%;
+		margin:0 0 10px 0;
+	}
+	.details-profile{
+		margin: 0;
+		min-width: 100%;
+	}
+
+	.my-education:before, .my-education:after{
+		display: none;
+	}
+	.my-education-text{
+		border:none;
+		min-width: 100%;
+		padding:10px 0 0 0;
+	}
+	.my-education-text-h3{
+		display: none;
+	}
+	.my-education-h3{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.education-content::after{
+		display: none;
+	}
+	.skills-base-content{
+		min-width: 100%;
+	}
+	.personal-qualities{
+		min-width: 100%;
+		margin: 0;
+	}
+	.skill-leng-wrap{
+		max-width: 400px;
+	}
+	.skills-leng-container {
+		width: 50%;
+		margin: 0;
+	} 
+	.hobbies-li{
+		width: 100%;
+		height: 100%;
+		text-align: left
+	}
+	.hobbies-icon{
+		display: none;
+	} 
+	.hobbies-icon-mobile{
+		display: inline-block;
+	}
+	.hobbies-li-span{
+		display:none;
+	}
+	.hobbies-li-hov-strong{
+		position: relative;
+		width: 116px;
+		top: -32px;
+		left: 51px;
+	}
+	.hobbies-li-hov-p{
+		margin:0 0 10px 0;
+		padding: 0 10px;
+	}
+	.hobbies-li-hov{
+		display: block;
+		position: relative;
+		top:0;
+		min-width:100%; 
+	  height: 100%;
+		min-height: 100%;
+		padding:0;
+		margin: 0;
+		color: #000;
+		background-color:#EEEEEE;
+		-webkit-transition:none;
+		-o-transition: none;
+		transition: none;
+	}
+	.hobbies-li:hover .hobbies-li-hov{
+		display: block;
+		position: relative;
+		top:0;
+		left:0;
+	}
+	.work-prev{
+		text-align: center;
+	}
+	.work-prev-li{
+		width: 100%
+	}
+	.work-prev-li-a{
+		width: 250px;
+	}
+	.work-prev-li-span{
+		display: none;
+	}
+	.contacts-wrapp-form-h2{
+		font-size: 17px;
+		margin-bottom: 25px;
+	}
+	.contacts-social-h2 {
+    font-size: 23px;
+}
+	.contacts-adress{
+		padding-right: 26px;
+	}
+	.contacts-form-p {
+    min-height: 40px;
+	}
+	.contacts-form-p-input{
+		width: 120%;
+	}
+	.contacts-form-p-textarea{
+		width: 120%;
+	}
+	.contacts-wrapp-form {
+    float: left;
+	}
+	.contacts-content{
+		min-height: 1267px;
+	}
+}
+
+@media (min-width: 480px) and (max-width:820px){
+	.header-text-border {
+		min-width: 337px;
+	}
+	.header-h1{
+		font-size: 40px;
+	}
+	.header-a{
+		top: 80%;
+	}
+	.details-details-me{
+		width: 100%;
+		margin:0 0 10px 0;
+	}
+	.details-profile{
+		min-width:100%;
+		margin: 0;
+	}
+	.my-education:before, .my-education:after{
+		display: none;
+	}
+	.my-education-text{
+		border: none;
+		min-width: 100%;
+		padding:0;
+	}
+	.my-education-text-h3{
+		display: none;
+	}
+	.education-content::after{
+		display: none;
+	}
+	.skills-base-content{
+		min-width: 100%;
+	}
+	.personal-qualities{
+		min-width: 100%;
+		margin: 0;
+	}
+	.hobbies-li{
+		width: 100%;
+		height: 100%;
+		padding-left:10px;
+		text-align: left
+	}
+	.hobbies-icon{
+		display: none;
+	} 
+	.hobbies-icon-mobile{
+		display: inline-block;
+	}
+	.hobbies-li-span{
+		display:none;
+	}
+	.hobbies-li-hov-strong{
+		position: relative;
+		width: 116px;
+		top: -32px;
+		left: 51px;
+	}
+	.hobbies-li-hov-p{
+		margin:0 0 10px 0;
+		padding: 0 10px;
+	}
+	.hobbies-li-hov{
+		display: block;
+		position: relative;
+		top:0;
+		min-width:100%; 
+		height: 100%;
+		min-height: 100%;
+		padding:0;
+		margin: 0;
+		color: #000;
+		background-color:#EEEEEE;
+		-webkit-transition:none;
+		-o-transition: none;
+		transition: none;
+	}
+	.hobbies-li:hover .hobbies-li-hov{
+		display: block;
+		position: relative;
+		top:0;
+		left:0;
+	}
+	.contacts-content{
+		min-height: 1200px;
+	}
+	.contacts-wrapp-form{
+		min-width: 100%;
+	}
+	.contacts-wrapp-form-h2{
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+	.contacts-form-p {
+    min-height: 40px;
+	}
+}
+@media (min-width: 480px) and (max-width: 660px){
+	.skills-leng-container{
+		width:100px;
+		margin-right:33px;
+	}
+}
+@media (min-width:821px) and (max-width: 978px){
+	.details-profile{
+		max-width: 26%;
+	}
+}
+
+@media screen and (max-width:980px){
+	
+	.navigation-ul{
+		padding-top: 12px;
+		margin-top: -8px;
+	}
+	.navigation-li-mobile{
+		float:right;
+	}
+	.navigation-li{
+		display: none;
+	}
+	/* waypoints sticky menu*/
+	.stuck{
+		display: none;
+	}
+	.my-education-text{
+		max-width: 60%;
+	}
+}
+@media all and (min-width: 980px){
+	.container{
+		max-width: 940px;
+	}
+	.navigation-li-mobile{
+		display: none !important;
+	}
+	.wrapp-mobile-menu{
+		display: none !important;
+	}
+	#toTop{
+		display: none !important;
+	}
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'icon-set';
+  src: url('../font/icon-set/icon-set.eot?17788566');
+  src: url('../font/icon-set/icon-set.eot?17788566#iefix') format('embedded-opentype'),
+       url('../font/icon-set/icon-set.woff2?17788566') format('woff2'),
+       url('../font/icon-set/icon-set.woff?17788566') format('woff'),
+       url('../font/icon-set/icon-set.ttf?17788566') format('truetype'),
+       url('../font/icon-set/icon-set.svg?17788566#icon-set') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'pt_sans_narrowregular';
+    src: url('../font/ptsansnarrow_regular_macroman/PTN57F-webfont.eot');
+    src: url('../font/ptsansnarrow_regular_macroman/PTN57F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ptsansnarrow_regular_macroman/PTN57F-webfont.woff') format('woff'),
+         url('../font/ptsansnarrow_regular_macroman/PTN57F-webfont.ttf') format('truetype'),
+         url('../font/ptsansnarrow_regular_macroman/PTN57F-webfont.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
