@@ -526,7 +526,7 @@ body ul{
 .pie-value {
 	display: block;
 	position: absolute;
-	font-size: 17px;
+	font-size: 15px;
 	height: 40px;
 	top: 50%;
 	left: 0;
@@ -535,9 +535,6 @@ body ul{
 	margin-top: -20px;
 	line-height: 40px;
 	font-weight: bold;
-}
-.pie-change{
-	line-height: 21px;
 }
 .skills-leng-container{
 	display: inline-block;

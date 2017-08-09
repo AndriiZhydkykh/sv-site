@@ -106,7 +106,7 @@ $(function() {
             trackColor: '#5F5F5F',
             lineCap: 'butt',
             lineWidth: 8,
-            size: 135,
+             size: 135,
             animate: {
               duration: 3000, 
               enabled: true
@@ -146,28 +146,6 @@ $(function() {
     }
 });
    }
-});
-// линейный прогресс бар
-$(function() {
-    var blockTop = $('#bar4').offset().top;
-    var CountUpFlag = 0;
-    var $window = $(window);
-    $window.on('load scroll', function() {
-        var top = $window.scrollTop();
-        var height = $window.height();
-        if (top + height >= blockTop && CountUpFlag == 0) {
-            CountUp();
-            CountUpFlag = 1;
-        }
-    });
-    function CountUp() {
-        $('#bar4').barfiller({ 
-            barColor: '#252525', 
-            duration: 3000,
-            tooltip: true
-        });
-
-    }
 });
     // Уведомление формы
      $(' .contacts-form-button').on('click', function () {
